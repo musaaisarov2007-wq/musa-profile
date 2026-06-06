@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Профиль</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+min-height:100vh;
+display:flex;
+flex-direction:column;
+align-items:center;
+padding:30px 15px;
+background:
+linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),
+url('https://c4.wallpaperflare.com/wallpaper/169/871/623/solo-leveling-manga-manhwa-webtoon-hd-wallpaper-preview.jpg');
+background-size:cover;
+background-position:center;
+background-attachment:fixed;
+color:white;
+}
+
+.card{
+width:100%;
+max-width:580px;
+background:rgba(0,0,0,.85);
+backdrop-filter:blur(10px);
+border-radius:25px;
+overflow:hidden;
+box-shadow:0 0 25px rgba(0,0,0,.5);
+}
+
+.banner{
+height:220px;
+background:url('https://play-lh.googleusercontent.com/KAS1zI-Xs-Y9T6e5I-Rsbbj5uSG8kA6OM2cX45aRePuMpDwhq7RqoGTrZ7hKfgYqQ4Q');
+background-size:cover;
+background-position:center;
+}
+
+.avatar{
+width:110px;
+height:110px;
+border-radius:50%;
+border:4px solid orange;
+margin:-55px auto 15px;
+display:block;
+object-fit:cover;
+}
+
+.content{
+padding:0 25px 35px;
+text-align:center;
+}
+
+h1{
+font-size:42px;
+font-weight:900;
+margin-bottom:10px;
+}
+
+.nickname{
+color:#bbb;
+margin-bottom:50px;
+}
+
+.info{
+line-height:2;
+color:#ddd;
+margin-bottom:50px;
+}
+
+.support{
+margin-bottom:20px;
+color:#ccc;
+}
+
+.socials{
+display:flex;
+justify-content:center;
+gap:20px;
+font-size:40px;
+margin-bottom:25px;
+}
+
+.socials a{
+text-decoration:none;
+color:white;
+}
+
+.kaspi-card{
+margin-top:20px;
+width:100%;
+max-width:580px;
+background:linear-gradient(135deg,#6a2d16,#b4552d);
+border-radius:25px;
+padding:25px;
+text-align:center;
+overflow:hidden;
+}
+
+.kaspi-card h2{
+color:#ffb100;
+margin-bottom:10px;
+}
+
+.number{
+font-size:34px;
+font-weight:700;
+margin-bottom:15px;
+}
+
+.btn{
+background:#ffae00;
+border:none;
+padding:14px 35px;
+border-radius:12px;
+font-size:18px;
+font-weight:bold;
+cursor:pointer;
+}
+
+.iban{
+margin-top:20px;
+width:100%;
+max-width:580px;
+background:rgba(0,0,0,.8);
+border-radius:20px;
+padding:18px 20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+font-size:22px;
+font-weight:bold;
+}
+
+.iban button{
+background:#ffae00;
+border:none;
+padding:12px 18px;
+border-radius:10px;
+cursor:pointer;
+font-size:18px;
+}
+
+.top{
+margin-top:20px;
+width:100%;
+max-width:580px;
+border-radius:20px;
+overflow:hidden;
+}
+
+.top-title{
+background:#ff9d00;
+padding:15px;
+text-align:center;
+font-size:30px;
+font-weight:900;
+color:black;
+}
+
+.top-body{
+background:rgba(0,0,0,.8);
+padding:35px;
+text-align:center;
+color:#999;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+<div class="banner"></div>
+
+<img class="avatar"
+src="https://images.steamusercontent.com/ugc/1843667042059702858/2C0D5149DB815093CD333B86B54E84B558B99F06/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true"
+alt="avatar">
+
+<div class="content">
+
+<h1>Дильдар Кенжебай</h1>
+
+<div class="nickname">
+Musa или MUSLIMOV
+</div>
+
+<div class="info">
+родом с Астаны<br><br>
+Играю CS2, ну и прочие игры :)
+</div>
+
+<div class="support">
+Поддержать можете на KASPI
+</div>
+
+<div class="socials">
+</div>
+
+</div>
+</div>
+
+<div class="kaspi-card">
+<h2>Kaspi Gold</h2>
+<div class="number">4400 4302 2139 3595</div>
+<button class="btn">📋 Скопировать</button>
+</div>
+
+<div class="iban">
+<span>IBAN KZ528562204147427850</span>
+<button>📋</button>
+</div>
+
+<div class="top">
+<div class="top-title">ТОП-5 Июнь</div>
+<div class="top-body">
+Пока нет донатов
+</div>
+</div>
+
+</body>
+</html>
